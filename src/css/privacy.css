@@ -1,0 +1,96 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+@import url('./cookie-popup.css');
+
+
+.background {
+    color: #fff;
+    font-family: "Hanken Grotesk", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #010f00;
+        text-align: left;
+}
+
+.policy-title-section{
+    background: #010f00;
+}
+.policy-container-green{
+    padding-bottom: 12px;
+}
+.back-link{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-family: "Hanken Grotesk", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #f2f1f2;
+}
+.privacy-title {
+font-family: "Alegreya", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    background: linear-gradient(270deg, #5a2c0a 0%, #edc903 25%, #e2cf67 50%, #edc903 75%, #5a2c0a 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #010f00;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.policy-list {
+
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.mail-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1439px) {
+    .background {
+        background-image: url("/img/back/desk.png");
+    }
+.policy-container{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+}
