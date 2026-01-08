@@ -2,55 +2,46 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/jackpotflow/favicon.svg" />
+    <link rel="icon" type="image/png" href="/jackpotflow/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Darker+Grotesque:wght@300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&display=swap"
+          rel="stylesheet">
+    <title>Money Minter</title>
     <script type="module" crossorigin src="/jackpotflow/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/jackpotflow/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/jackpotflow/assets/styles-Y9F8asPG.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="hero-section">
+    <div class="container">
+        <h1 class="visually-hidden">Money Minter</h1>
+         <picture>
+            <source srcset="/jackpotflow/assets/desk-img-DUmrYZCM.png 1x, /jackpotflow/assets/desk-img@2x-DSp4sLqr.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/jackpotflow/assets/mob-img-CT5LbfJp.png 1x, /jackpotflow/assets/mob-img@2x-CFl0HYZX.png 2x" media="(max-width: 1438px)" />
+            <img class="hero-img" src="/jackpotflow/assets/mob-img-CT5LbfJp.png" alt="Money Minter" loading="lazy" />
+        </picture>
+        <div class="hero-wrapper">
+        <p class="hero-text">Look, I'll be straight with you - I used to be one of those idiots just mashing the spin button like it was going out of
+        style. Spoiler alert: didn't work. Gotta have some discipline, you know? Stick with your strategy and you'll start
+        seeing some real results.</p>
+        <a class="hero-button" href="#demo">
+            <p class="hero-btn-text">Enter the System</p>
+        </a>
+    </div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
