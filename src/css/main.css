@@ -35,7 +35,7 @@
         color: #f2f1f2;
         width: 303px;
 }
-.hero-button{
+.btn-hover{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,6 +50,11 @@
         font-size: 16px;
         letter-spacing: 0.02em;
         color: #f2f1f2;
+        transition: all 0.3s ease;
+}
+.btn-hover:hover{
+    box-shadow: 0 2px 4px 0 rgba(95, 18, 126, 0.5);
+        background: linear-gradient(180deg, #7712a1 0%, #590d78 100%);
 }
 @media only screen and (min-width: 1440px) {
     .hero-section{
@@ -400,12 +405,21 @@ background: none;
         transform: translateY(-50%);
 }
   .swiper-btn {
-        display: block;
-        border-radius: 100px;
-background-color: inherit;
-border: none;
+    border-radius: 100px;
+    border: 1px solid #edc903;
+    background-color: #010f00;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    width: 48px;
+    height: 48px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
         cursor: pointer;
+        transition: all 0.3s ease;
    }
+.swiper-btn:hover{
+background-color: #031f01;
+}
 .my-swiper{
 width: 1060px;
 margin-left: auto;
